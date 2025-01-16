@@ -1,15 +1,15 @@
 {
-    "name": "stream-server",
-    "version": "1.0.0",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "node-fetch": "^2.6.1"
-    },
-    "engines": {
-        "node": ">=14"
-    }
+  "name": "tg-stream-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
 }
